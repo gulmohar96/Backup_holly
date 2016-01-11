@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Resources(object):
     def __init__(self, food, water, sleep):
         self.food = food
@@ -30,4 +31,15 @@ class Resources(object):
 
     def __str__(self):
         return "({:.2}, {:.2}, {:.2})".format(self.food, self.water, self.sleep)
+=======
+
+class Resources(object):
+    def __init__(self,food = 100,sleep = 100,water = 100):
+        self.sleep = sleep
+        self.water = water
+        self.food = food
+
+    def copy(self):
+        return Resources(self.food, self.sleep, self.water)
+>>>>>>> 33ee28c0ac6757c0d1d2939c7461e5bcf4a43697
 

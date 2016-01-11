@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # # NEED PRIORITY GRAPHS 
 # import numpy as np
 # import matplotlib.pyplot as plt
@@ -33,3 +34,20 @@ print('max need',need)
 
 
 
+=======
+# NEED PRIORITY GRAPHS 
+
+import matplotlib
+
+# Resource functions 
+food_curve = 1 - x^(0.5)
+water_curve = 1 - x^(2)
+sleep_curve = 1 - x^(0.1) 
+
+# Limiting thse graphs from 0 to 1 
+ 
+
+
+
+# 
+>>>>>>> 33ee28c0ac6757c0d1d2939c7461e5bcf4a43697
